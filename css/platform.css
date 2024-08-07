@@ -1,0 +1,207 @@
+.part1_bg{
+    background-color: #E6F4FF;
+    height: 30.75rem;
+}
+.part1_bg img{
+   width:45.625rem;
+   height: 22.375rem;
+}
+.part1_bg .col:first-child{
+    margin-top:9rem;
+}
+.part1_bg .col:last-child{
+    margin-top:8.3rem;
+}
+.part2 img{
+    width:100%;
+}
+.sms img{
+    width:19.25rem;
+}
+.pl_65{
+    padding-left:18%;
+}
+.part3{
+    background-color: #F9FBFF;
+}
+.part3 .rounded{
+    border-radius: 1rem!important;
+    border:none;
+}
+.part3 .rounded img{
+    width:6.5rem;
+    margin-bottom: 2.18rem;
+}
+.part3 .card-body{
+    height: 22rem;
+}
+/* 应用场景 */
+#pills-tab {
+    position: relative;
+}
+#pills-tab li {
+    flex: 1;
+    border-bottom: 2px solid #EDF0F7;
+}
+#pills-tab .nav-link.active {
+    color: #008BF7;
+}
+
+#pills-tab .nav-link {
+    background: none;
+    color: #7A8BA6;
+    text-align: center;
+    border-radius: unset;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+}
+#pills-tabContent .media {
+    width: 80%;
+    margin: 3.75rem auto;
+}
+#pills-tabContent .media-body {
+    text-align: left;
+}
+#pills-tabContent .media-body p {
+    padding-right: 2%;
+    width: 98%;
+}
+#pills-tabContent img {
+    width: 67%;
+}
+
+/* #medical_img {
+    transform: scale(0);
+} */
+#pills-tab li {
+    flex: 1;
+    border-bottom: 2px solid #EDF0F7;
+}
+.tabs-ink-bar-animated {
+    position: absolute;
+    height: 0.25rem;
+    background: #008BF7;
+    pointer-events: none;
+    bottom: 0;
+    /* top: 3.78rem; */
+    left:0;
+    /* width: 10rem; */
+    width: 16%;
+    -webkit-transition: left .3s;
+    -moz-transition: left .3s;
+    transition: left .3s;
+}
+#scence{
+    width:80%;
+    margin:0 auto;
+}
+.animated_one{
+    /* left:0.9rem; */
+    left:0;
+}
+.animated_two{
+    /* left:13rem; */
+    left:16.7%;
+}
+.animated_three{
+    /* left:25.3rem; */
+    left:33.6%;
+}
+.animated_four{
+    /* left:37.5rem; */
+    left:50.4%;
+}
+.animated_five{
+    /* left:49.8rem; */
+    left:67%;
+}
+.animated_six{
+    /* left:61.9rem; */
+    left:83.8%;
+}
+.part4 .sm{
+    display: none;
+}
+.part4 .sm img{
+    width:80%;
+}
+.part4 .nav-pills .nav-link{
+    color: #7a8ba6 ;
+}
+.part4 .nav-pills .nav-link.active{
+    background-color: unset;
+    color:#008BF7
+} 
+
+@media (max-width:1200px){
+    .part1_bg img {
+        width: 32rem;
+        height: 22.5rem;
+    }
+    .part4 #pills-tab .nav-link{
+        font-size:1.25rem;
+    }
+}
+@media (max-width:991px){
+    .part1_bg img {
+        width: 26rem;
+        height: 19.5rem;
+    }
+    .mmsimg{
+        display: none;
+    }
+    .part2 img{
+        width:75%;
+    }
+    .part4 .lg{
+        display: none;
+    }
+    .part4 .sm{
+        display: block;
+    }
+    .part4 h3{
+        margin-bottom: 5.25rem;
+    }
+}
+@media (max-width:768px){
+    .part1_bg img {
+        width: 23rem;
+        height: 17rem;
+        position: absolute;
+        top: 0;
+        left: -54px;
+    }
+    .part1_bg .col:last-child{
+        display: none;
+    }
+    .part1 button {
+        margin-top: 3rem;
+    }
+    .part2 img{
+        width:100%;
+    }
+    .part2 .pl_65{
+        padding-left:6%;
+    }
+    .part4 .nav-pills .nav-link{
+        width:8rem
+    }
+    .part4 h4{
+        font-size:1rem;
+    }
+    .mb_142{
+        margin: 4rem 0;
+    }
+    .part2 img{
+        margin-bottom: 2rem;
+    }
+    .part2 .row:last-child{
+        margin-top:2rem;
+    }
+}
+@media (max-width:650px){
+    .part1_bg img{
+        width:100%;
+        height: 100%;
+    }
+}

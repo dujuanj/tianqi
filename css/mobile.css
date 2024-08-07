@@ -1,0 +1,121 @@
+
+/* 小屏 */
+
+@media (min-width:1200px){
+    #carousel_responsive{
+        display: none;
+    }   
+}
+/* 小屏 */
+@media (max-width:991px){
+    .navbar-nav{
+        margin-left:0!important;
+    }
+    .navbar-nav .nav-item{
+       text-align: left;
+       height: 40px;
+       line-height: 40px;
+       margin-right:0
+    } 
+    .divider{
+        border: none !important;
+    }
+    .navbar-nav .nav-item.current span{
+        display: none;
+    }
+    .header-wrap{
+        background-color: #fff;
+    }
+    .part2 .intro{
+        width: 100% !important;;
+    }
+    #pills-tab .nav-link{
+        font-size: 22px !important;
+    }
+    .d_response{
+        display: unset!important;
+    }
+    .d_response .pt3_site_l img,.d_response .pt3_site_r img{
+        display: none;
+    }
+    .pt3_site_l,.pt3_site_r{
+        right: 0 !important;
+    }
+    .smart-banner{
+        width: 26.7rem !important;;
+    }
+    .product-dropdown{
+        width:100%;
+        min-width: unset!important;
+        left: 0 !important;
+    }
+}
+@media (max-width:900px){
+    .smart-banner{
+        width: 22.7rem !important;
+    }
+}
+@media (max-width:780px){
+    .smart-banner{
+        width: 20.7rem !important;;
+    }
+}
+@media (max-width:715px){
+    .smart-banner{
+        width: 19.7rem !important;;
+    }
+    .ft_response{
+        font-size: 2.5rem !important;;
+    }
+    .banner-text{
+        top: 11rem !important;;
+    }
+    .nav-item{
+        margin-right:0!important;
+    }
+    .product-dropdown{
+        left:0!important;
+        min-width:unset!important;
+    }
+    .divider{
+        border: none !important;;
+    }
+    .navbar-nav .nav-item{
+        height: 3.125rem;
+        line-height: 3.125rem;
+    }
+    .navbar .solution_nav .row .media:last-child{
+        margin-top:1rem!important;
+    }
+    #footer .col-6{
+        /* padding-left:3rem; */
+    }
+    .footer dl{
+        margin:2rem 0!important;
+    }
+}
+@media (max-width:769px){
+    /* .footer dl {
+        width:6rem;
+    } */
+    .qr-code{
+        margin-bottom: 2rem;
+    }
+    .qr-code img{
+        margin-top:0!important;
+    }
+}
+@media (max-width:613px){
+    /* .footer dl {
+        width:7rem;
+    } */
+    /* .qr-code img{
+        margin-top:4rem!important;
+    } */
+}
+@media (max-width:600px){
+    .pt3_img{
+        width: 100% !important;
+    }
+    
+}

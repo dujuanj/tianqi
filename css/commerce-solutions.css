@@ -1,0 +1,205 @@
+.part1_bg{
+    background-color: #E6F4FF;
+    height: 20rem;
+}
+.part1_bg img{
+    width:100%;
+    position: relative;
+    bottom: -17%;
+ }
+.part2 h5{
+    font-weight: bold;
+}
+.card-title{
+    margin-bottom: 1rem;
+    /* margin-top:2rem; */
+}
+.card-header{
+    border: none;
+    background: none;
+    border-left: 4px solid #0D99FF;
+    height: 1.5rem;
+}
+.card{
+    margin-bottom: 1.5rem;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.card:hover h5{
+    color:#008BF7
+}
+
+.part1 .container,.part1 .row{
+    height: 100%;
+}
+.part3 .form_display{
+    list-style: disc;
+    color:#0D99FF;
+    padding-left:1.25rem;
+}
+.part3 .form_display li{
+    margin-bottom: 1rem;
+}
+.part3 .form_display span{
+    color:#7A8BA6
+}
+.part3{
+    background-color: #F9FBFF;
+}
+#pills-tab {
+    position: relative;
+    width:80%;
+    margin:0 auto;
+}
+#pills-tab li {
+    flex: 1;
+    border-bottom: 2px solid #EDF0F7;
+}
+#pills-tab .nav-link.active {
+    color: #008BF7;
+}
+#pills-tab .nav-link {
+    background: none;
+    color: #7A8BA6;
+    text-align: center;
+    border-radius: unset;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+.tabs-ink-bar-animated {
+    position: absolute;
+    height: 0.25rem;
+    background: #008BF7;
+    pointer-events: none;
+    bottom: 0;
+    /* top: 3.78rem; */
+    left: 8%;
+    /* width: 10rem; */
+    width: 9%;
+    -webkit-transition: left .3s;
+    -moz-transition: left .3s;
+    transition: left .3s;
+}
+
+.part3 .animated_two{
+    left:32.9%;
+}
+.part3 .animated_three{
+    left:57.9%;
+}
+.part3 .animated_four{
+    left:83%;
+}
+.part3 .media{
+    width:75%;
+    margin:0 auto
+}
+.part3 img{
+    width:24.625rem;
+}
+.part3 .lg{
+    margin-bottom: 5.9rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #008bf7 !important;
+}
+#sm .nav-pills .nav-link {
+    color: #7A8BA6;
+    background-color: unset;
+}
+#sm .medical_img {
+    width: 45%;
+    margin-right: 3%;
+}
+#sm .col-3 {
+    border-right: 1px solid #EDF0F7;
+}
+#sm .col-3 a{
+    padding: 0.5rem 0
+}
+#sm{
+    display: none;
+}
+.part4 img{
+    width:1.5rem;
+    height: 1.5rem;
+}
+.part4 .col-md-2{
+    text-align: right;
+}
+.part4{
+    margin-bottom: 8.25rem;
+}
+@media (max-width:1200px){
+    .part1_bg img{
+        bottom:-35%;
+    }
+    .tabs-ink-bar-animated{
+        left:8%;
+    }
+}
+@media (max-width:991px){
+    .part1_bg img{
+        bottom:-52%;
+    }
+    #sm{
+        display: block;
+    }
+    .part3 .lg{
+        display: none;
+    }
+    .part3 .media{
+        width:100%;
+    }
+    #sm{
+        margin-bottom: 5.9rem;
+    }
+}
+@media (max-width:768px){
+    .part1 .row .col-12:last-child{
+        display: none;
+    }
+    .part2 .card{
+        height:12.375rem;
+    }
+    .part2 .col-6{
+        padding-right: 0;
+    }
+    .part2 .col-6:nth-child(2){
+        padding-right:15px;
+    }
+    .part2 .col-6:nth-child(4){
+        padding-right:15px;
+    }
+    .part4{
+        margin-bottom: 5rem;
+    }
+    .part4 .col-md-2 {
+        /* text-align: left; */
+        margin-left: 8%;
+    }
+    .part4 .row .col:nth-child(2){
+        padding-right: 15px;
+    }
+    .part4 h3{
+        padding-top:0;
+        margin-bottom: 4rem;
+    }
+    #sm{
+        margin-bottom: 4rem;
+    }
+    .part3 #sm .col-9{
+        height:22.5rem;
+    }
+    .part3 #sm .col-3{
+       padding-right:0
+    }
+    .part4 .col{
+        padding-right:0
+    }
+}

@@ -1,0 +1,250 @@
+/* @font-face{
+    font-family: 'PingFang';
+    src: url(../fonts/PingFang-Jian-ChangGuiTi-2.ttf);
+  } */
+  @font-face{
+    font-family: 'YouSheBiaoTiHei';
+    src: url(../fonts//YouSheBiaoTiHei-2.ttf);
+  }
+  /* @font-face{
+    font-family: 'PingFang-Bold';
+    src: url(../fonts/PingFang-Bold-2.ttf);
+  } */
+  body{
+    width:100%
+  }
+  #main{
+    width:100%
+  }
+  .fontTiHei{
+    font-family: YouSheBiaoTiHei;
+}
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}
+}
+.ft-14{
+    font-size:14px;
+}
+.ft_16{
+  font-size: 1rem;
+}
+.ft_18{
+  font-size:1.125rem;
+}
+.ft_20{
+  font-size:1.25rem;
+}
+.ft_24{
+  font-size:1.5rem;
+}
+.ft_26{
+  font-size:1.625rem;
+}
+.ft_40{
+  font-size:2.5rem;
+}
+.ft_50{
+  font-size:3.125rem;
+}
+.mt_14{
+  margin-top:0.875rem;
+}
+.mt_32{
+  margin-top:2rem;
+}
+.pt_48{
+  padding-top:3rem;
+}
+.pt_68{
+  padding-top:4.25rem;
+}
+.pl_65{
+  padding-left:4.0625rem;
+}
+.mt_40{
+  margin-top:2.5rem;
+}
+.mt_48{
+  margin-top:3rem;
+}
+.mt_68{
+  margin-top:4.25rem;
+}
+.mt_86{
+  margin-top:5.375rem;
+}
+.mt_118{
+  margin-top:7.375rem;
+}
+.mt_32{
+  margin-top:2rem;
+}
+.mb_14{
+  margin-bottom: 0.875rem;
+}
+.mb_16{
+  margin-bottom: 1rem;;
+}
+.mb_20{
+  margin-bottom: 1.25rem;
+}
+.mb_22{
+  margin-bottom: 1.375rem;
+}
+.mb_32{
+  margin-bottom: 2rem;
+}
+.mb_55{
+  margin-bottom:3.44rem ;
+}
+.mb_64{
+  margin-bottom: 4rem;
+}
+.mb_76{
+  margin-bottom: 4.75rem;
+}
+.mb_92{
+  margin-bottom:5.75rem ;
+}
+.mb_142{
+  margin-bottom: 8.875rem;
+}
+.pt_24{
+  padding-top:1.5rem;
+}
+.pb_32{
+  padding-bottom: 2rem;
+}
+.pt_32{
+  padding-top: 2rem;
+}
+.pb_55{
+  padding-bottom:3.44rem ;
+}
+.pb_130{
+  padding-bottom: 8.125rem;
+}
+.width_80{
+  width:80%;
+}
+.mg_auto{
+  margin:0 auto;
+}
+.main_text_color{
+  color:#7A8BA6
+}
+.title_color{
+  color:#374467;
+}
+.white-color{
+  color:#fff;
+}
+.main_color{
+  color:#008BF7;
+}
+#footer{
+  background-color: #F9FBFF;
+}
+.qr-code img{
+  width:10.25rem;
+  margin-top: 4.25rem
+}
+.back-top img{
+  width:100%;
+}
+.back-top img:hover{
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(50, 50, 50, 0.38);
+  -moz-box-shadow:    2px 2px 12px 0px rgba(50, 50, 50, 0.38);
+  box-shadow:         2px 2px 12px 0px rgba(50, 50, 50, 0.38);
+}
+.record p{
+  color:#374467;
+  margin-bottom: 0.5rem;
+}
+h3{
+  font-family: PingFang-Bold;
+}
+.opacity_0{
+  opacity: 0;
+}
+.vertical-middle{
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+.num_color{
+  color:#0086FF;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fadeIn-animation{
+  animation: fadeInUp 1s linear 2s forwards;
+  -webkit-animation:fadeInUp 1s forwards;
+  -o-animation:fadeInUp 1s forwards;
+  -moz-animation: fadeInUp 1s forwards;
+}
+.fadeIn-left{
+  animation: fadeInLeft 1s linear 2s forwards;
+  -webkit-animation:fadeInLeft 1s forwards;
+  -o-animation:fadeInLeft 1s forwards;
+  -moz-animation: fadeInLeft 1s forwards;
+}
+.fadeIn-right{
+  animation: fadeInRight 1s linear 2s forwards;
+  -webkit-animation:fadeInRight 1s forwards;
+  -o-animation:fadeInRight 1s forwards;
+  -moz-animation: fadeInRight 1s forwards;
+}
+.scale-animation{
+  animation:scales 1s forwards ;
+  -webkit-animation:scales 1s forwards;
+  -o-animation:scales 1s forwards;
+  -moz-animation: scales 1s forwards;
+}
+.scale-big{
+  animation:scaleBig 1s forwards ;
+  -webkit-animation:scaleBig 1s forwards;
+  -o-animation:scaleBig 1s forwards;
+  -moz-animation: scaleBig 1s forwards;
+}
+.rotate-scale{
+  animation:rotateScale 1s forwards ;
+  -webkit-animation:rotateScale 1s forwards;
+  -o-animation:rotateScale 1s forwards;
+  -moz-animation: rotateScale 1s forwards;
+}
+.back-top{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #666a77;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  -moz-font-feature-settings: "tnum","tnum";
+  font-feature-settings: "tnum","tnum";
+  position: fixed;
+  right: 5%;
+  bottom: 50px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: none;
+}
+.sub_head{
+  display: block;
+  font-size: 1.75rem;
+  opacity: 0.1;
+  font-weight: bold;
+  margin-top: -23px; 
+}

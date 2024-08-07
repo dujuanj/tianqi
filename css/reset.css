@@ -1,0 +1,21 @@
+body{
+    /* font-family: PingFang; */
+    /* min-width: 1200px;  */
+}
+.btn-link{
+    color:#008BF7
+}
+.btn-primary{
+    background-color:#0D99FF;
+    border:none
+}
+.navbar{
+    padding:0.5rem 0
+}
+a:hover{
+    text-decoration: none;
+    color:#007bff!important
+}
+h3{
+    font-size:1.625rem;
+}

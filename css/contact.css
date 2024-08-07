@@ -1,0 +1,120 @@
+.part1_bg{
+    background-color: #E6F4FF;
+    height: 26.75rem;
+}
+.part1_bg img{
+    width:84%;
+   /* width:45.625rem;
+   height: 22.375rem; */
+}
+.part1 .sub_head {
+    display: block;
+    font-size: 2.75rem;
+    opacity: 0.1;
+    font-weight: bold;
+    margin-top: -3.5rem;
+    margin-left: 9rem;
+}
+.part1_bg .col:last-child{
+    margin-top:6.3%
+}
+.part2 img{
+    width:78%;
+}
+.part2 p{
+    line-height: 1.8rem;
+}
+.part3 .row{
+    border:0.6px solid #ABB3CB;
+    width:80%;
+    margin:0 auto;
+    cursor: pointer;
+}
+.part3 img{
+    width:100%;
+    height: 100%;
+    /* position: relative;
+    left:-5rem; */
+    transition:all 0.3s linear;
+}
+.part3 .row .col:first-child{
+    padding:1rem;
+}
+.part3 .row .col-12:first-child div{
+    width:100%;
+    height: 100%;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.part3 .row .col-12:first-child{
+    padding:0
+}
+.part3 .row:hover img{
+    transform-origin:center center;
+    transform:scale(1.2,1.2);
+}
+.part3 .row .col:last-child div{
+    /* margin-left:-5rem; */
+}
+@media (max-width:1200px){
+    .part1_bg img {
+        width: 100%;
+        height: 23rem;
+    }
+    .part3 .row .col:last-child div{
+        margin-left: unset;
+    }
+}
+@media (max-width:991px){
+    .part1_bg img{
+        height: 19rem;
+    }
+    .part1_bg .col:last-child{
+        margin-top:19.3%;
+    }
+    .part1_bg{
+        height: 27.75rem;
+    }
+    .part2 p{
+        margin-top:2rem;
+    }
+    .part3 .row{
+        width:100%
+    }
+}
+@media (max-width:769px){
+    .part1 .row .col:last-child{
+        /* display: none; */
+    }
+    .part1 h1{
+        margin-top:0;
+    }
+    .part1 .sub_head {
+        display: block;
+        font-size: 2.75rem;
+        opacity: 0.1;
+        font-weight: bold;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    .part1_bg{
+        height: 19.75rem;
+    }
+    .part1_bg img{
+        height: 13rem;
+    }
+    .part3 .row .col:last-child div{
+        margin-left: unset;
+        text-align: center;
+    }
+    .part3 .row .col:first-child div{
+        left:unset
+    }
+    .part3 .row .tec{
+        margin-bottom: 2rem;
+    }
+    .part3 .row .col-12:first-child{
+        margin-top:1rem;
+    }
+}

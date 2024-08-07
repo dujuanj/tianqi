@@ -1,0 +1,98 @@
+/* 缩放 */
+@keyframes scales
+{
+    from {transform:scale(0.4);opacity: 0;}
+    to {transform:scale(1);opacity: 1;}
+}
+@-webkit-keyframes scales
+{
+    from {transform:scale(0.4);opacity: 0;}
+    to {transform:scale(1);opacity: 1;}
+}
+/* fadeup */
+@keyframes fadeup
+{
+    0%   {transform: translateY(100px);opacity:0;}
+    100% {transform: translateY(0);opacity: 1;}
+}
+ 
+@-webkit-keyframes fadeup /* Safari 与 Chrome */
+{
+    0%   {transform: translateY(100px);opacity: 0;}
+    100% {transform: translateY(0);opacity: 1;}
+}
+/* fadeInUp */
+@keyframes fadeInUp{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-webkit-keyframes fadeInUp
+{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    } 
+}
+/* fadeInLeft */
+@keyframes fadeInLeft
+{
+    0%   {transform: translateX(-10rem);opacity:0;}
+    100% {transform: translateX(0);opacity: 1;}
+}
+ 
+@-webkit-keyframes fadeup /* Safari 与 Chrome */
+{
+    0%   {transform: translateX(-10rem);opacity:0;}
+    100% {transform: translateX(0);opacity: 1;}
+}
+/* fadeInRight */
+@keyframes fadeInRight
+{
+    0%   {transform: translateX(10rem);opacity:0;}
+    100% {transform: translateX(0);opacity: 1;}
+}
+ 
+@-webkit-keyframes fadeup /* Safari 与 Chrome */
+{
+    0%   {transform: translateX(10rem);opacity:0;}
+    100% {transform: translateX(0);opacity: 1;}
+}
+/* rotateScale */
+@keyframes rotateScale
+{
+    0%   {transform: rotate(0deg) scale(0)}
+    /* 50%   {transform: rotate(180deg) scale(0.5)} */
+    100% {transform: rotate(360deg) scale(1)}
+}
+@-webkit-keyframes rotateScale
+{
+    0%   {transform: rotate(0deg) scale(0)}
+    /* 50%   {transform: rotate(180deg) scale(0.5)} */
+    100% {transform: rotate(360deg) scale(1)}
+}
+
+/* scaleBig */
+@keyframes scaleBig
+{
+    0%   {transform: scale(2)}
+    100% {transform: scale(1)}
+}
+@-webkit-keyframes rotateScale
+{
+    0%   {transform: scale(2)}
+    100% {transform: scale(1)}
+}
