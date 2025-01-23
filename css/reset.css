@@ -6,7 +6,8 @@ body{
     color:#008BF7
 }
 .btn-primary{
-    background-color:#0D99FF;
+    /* background-color:#0D99FF; */
+    background-color: var(--primary-color);
     border:none
 }
 .navbar{

@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #4daa81;
+  --text-color: #7A8BA6;
+  --title-color: #374467;
+}
+
+.main_text_color{
+  color: var(--text-color);
+}
+
+.title_color{
+  color: var(--title-color);
+}
+
+.main_color{
+  color: var(--primary-color);
+}
+
+.num_color{
+  color: var(--primary-color);
+} 

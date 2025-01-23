@@ -2,6 +2,30 @@
     font-family: 'PingFang';
     src: url(../fonts/PingFang-Jian-ChangGuiTi-2.ttf);
   } */
+   :root {
+  --primary-color: #4daa81;
+  --text-color: #7A8BA6;
+  --title-color: #374467;
+}
+
+
+.main_text_color{
+  color: var(--text-color);
+}
+
+.title_color{
+  color: var(--title-color);
+}
+
+.main_color{
+  color: var(--primary-color);
+}
+
+
+.num_color{
+  color: var(--primary-color)!important;
+}
+
   @font-face{
     font-family: 'YouSheBiaoTiHei';
     src: url(../fonts//YouSheBiaoTiHei-2.ttf);
@@ -18,6 +42,9 @@
   }
   .fontTiHei{
     font-family: YouSheBiaoTiHei;
+}
+.current span {
+    background-color:var(--primary-color)!important;
 }
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {

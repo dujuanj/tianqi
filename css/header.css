@@ -42,7 +42,7 @@ header {
     left: 39%;
     width: 16px;
     height: 2px;
-    background-color: #0D99FF;
+    background-color:var(--primary-color);
 }
 @media (min-width: 992px){
     .product-dropdown{
