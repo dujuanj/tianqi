@@ -2,6 +2,9 @@
     background-color: #E6F4FF;
     height: 30.75rem;
 }
+.part1_bg .container{
+    padding:0 60px;
+}
 .part1_bg img{
    width:45.625rem;
    height: 22.375rem;
@@ -33,7 +36,7 @@
     margin-bottom: 2.18rem;
 }
 .part3 .card-body{
-    height: 22rem;
+    height: 23rem;
 }
 /* 应用场景 */
 #pills-tab {
@@ -172,7 +175,7 @@
         left: -54px;
     }
     .part1_bg .col:last-child{
-        display: none;
+        /* display: none; */
     }
     .part1 button {
         margin-top: 3rem;
@@ -201,7 +204,7 @@
 }
 @media (max-width:650px){
     .part1_bg img{
-        width:100%;
+        width:12rem;
         height: 100%;
     }
 }
